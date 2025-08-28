@@ -12,7 +12,7 @@ export function Chat() {
     <div>
       {error && <span style={{ color: "red" }}>{error}</span>}
       <span>{response}</span>
-      <div>
+      <div> 
         <input
           disabled={loading}
           value={message}
